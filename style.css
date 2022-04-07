@@ -1,0 +1,160 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+
+#top{
+    margin-top:-5%;
+    margin-bottom: -4%;
+    background-color: #eef0a7;
+
+}
+
+#img{
+    height:400px !important;
+    width:100% !important;
+}
+
+#fc{
+    margin: 4 0 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 65px;
+    color: #293130;
+    background:#fce8d8;
+    width: 105px;
+    height: 113px;
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    margin-left: 46%;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.headings {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    font-size: 36px;
+    top: -220px;
+}
+
+#dd1{
+    position: absolute;
+    top: 43%;
+    margin-left: 43%;
+}
+
+#dd2{
+    position: absolute;
+    top: 43%;
+    margin-left:52%;
+}
+
+.quicksearchHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+}
+
+.quicksearchSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+}
+.tileContainer {
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px grey;
+    float: left;
+}
+
+.tileComponent1 {
+    width: 45%;
+    float: left;
+}
+
+.tileComponent2 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.componentHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.componentSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+}
+
+#backg{
+    background-color: #eef0a7;
+    margin-top: 3.5%;
+}
+
+#footer{
+    height:120px;
+    width:100%;
+    margin-top: 0%;
+    background-color:#e28b62
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.noBorder{
+    border:none 
+} 
+
+@media screen and (max-width:900px){
+    
+    #dd1 {
+        margin-top: 10%;
+        margin-left: 40%;
+        width:10%
+    }
+}
+
+
+@media screen and (max-width:500px){
+    
+    #dd1 {
+        margin-left:37%;
+        margin-top:16%;
+        width:10%
+    }
+}
